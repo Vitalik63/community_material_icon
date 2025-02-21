@@ -10,7 +10,8 @@ import 'package:flutter/widgets.dart';
 ///     onPressed: () { },
 ///   );
 ///
-class CommunityMaterialIcons {
+@staticIconProvider
+abstract final class CommunityMaterialIcons {
   static const IconData ab_testing = const IconData(0xF01C9,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'community_material_icon');
